@@ -1,3 +1,9 @@
+/** -- KM Hambruger Menu using CSS/JS - by Med Reda Kamal --
+    * Github : www.github.com/medredakamal
+    * Portfolio : www.medredakamal.dev
+    * LinkedIn : www.linkedin.com/in/medredakamal 
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap");
 
 * {
@@ -270,11 +276,12 @@ ul {
 /* Med Reda Kamal : Responsive */
 @media (max-width: 799px) {
   .medredakamal__author__card {
-    display: flex;
-    flex-direction: column;
     text-align: center;
   }
   .medredakamal__author__card .medredakamal__image {
     margin: auto;
+  }
+  .medredakamal__author__card .card__left__side {
+    display: block;
   }
 }
